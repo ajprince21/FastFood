@@ -4,13 +4,13 @@ import {colors , parameters} from "../global/styles";
 
 import { Icon } from '@rneui/themed';
 
-export default function Header({title}){
+export default function Header({title, type}){
     return(
         <View style={styles.header}>
             <View   style={{marginLeft:10}}> 
                 <Icon 
                     type="MaterialIcons" 
-                    name="arrow-back" 
+                    name={type}
                     color={colors.headerText} size={28}
                     onPress={()=> {}}
                   

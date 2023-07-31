@@ -1,27 +1,25 @@
 import React from "react";
 
-import {View, Text, StyleSheet, StatusBar} from 'react-native'
-import Header from "./src/components/Header";
+import { View, Text, StyleSheet, StatusBar } from 'react-native'
 import { colors } from "./src/global/styles";
+import SignInScreen from "./src/screens/authScreens/signInScreen";
 
-export default function App(){
-  return(
+export default function App() {
+  return (
     <View style={styles.conatiner}>
       <StatusBar
         barStyle="light-content"
         backgroundColor={colors.statusbar}
-        
       />
-      <Header title={'My Account'}/>
-      <Text>Hello Ajay how are you doing ?</Text>
+      <SignInScreen />
     </View>
   )
 }
 
 
 const styles = StyleSheet.create({
-  conatiner:{
-    flex:1,
-    backgroundColor:'#fff'
+  conatiner: {
+    flex: 1,
+    backgroundColor: '#fff'
   }
 })
