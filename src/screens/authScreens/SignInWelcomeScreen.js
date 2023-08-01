@@ -5,7 +5,7 @@ import { colors, parameters, title } from '../../global/styles';
 import { Icon, Button, SocialIcon } from '@rneui/themed';
 import Swiper from 'react-native-swiper'
 
-const SignInWelcomeScreen = () => {
+const SignInWelcomeScreen = ({ navigation }) => {
     return (
         <View style={{ flex: 1 }}>
             <View style={{ flex: 3, justifyContent: 'flex-start', alignItems: 'center', paddingTop: 20 }}>
@@ -39,6 +39,9 @@ const SignInWelcomeScreen = () => {
                         title={'SIGN IN'}
                         buttonStyle={parameters.buttonStyle}
                         titleStyle={parameters.buttonTitleStyle}
+                        onPress={() => {
+                            navigation.navigate('SignInScreen')
+                        }}
                     />
                 </View>
                 <View style={{ marginTop: 15, marginHorizontal: 20 }}>
@@ -89,7 +92,7 @@ const styles = StyleSheet.create({
         borderColor: '#ff8c52',
         height: 50,
         paddingHorizontal: 20,
-        borderColor: colors.buttons
+        borderColor: colors.grey4
     },
     createButtonTitle: {
         color: colors.grey1,
