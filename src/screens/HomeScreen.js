@@ -65,6 +65,9 @@ const HomeScreen = ({ navigation }) => {
                         />
                     </View>
                 </View>
+                <View style={styles.headerTextView}>
+                    <Text style={styles.headerText}>Categories</Text>
+                </View>
             </ScrollView>
         </View>
     )
@@ -110,6 +113,16 @@ const styles = StyleSheet.create({
         borderRadius: 15,
         paddingVertical: 3,
         justifyContent: 'space-between',
-        paddingHorizontal:20
+        paddingHorizontal: 20
+    },
+    headerText: {
+        color: colors.grey2,
+        fontSize: 22,
+        fontWeight: 'bold',
+        paddingLeft: 10
+    },
+    headerTextView: {
+        backgroundColor: colors.grey5,
+        paddingVertical: 2
     }
 })
