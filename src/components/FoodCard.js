@@ -1,9 +1,8 @@
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
+import { StyleSheet, Text, TouchableOpacity, View, Image } from 'react-native'
 import React from 'react'
 import { colors, parameters } from '../global/styles';
 import { Icon } from '@rneui/themed';
 import { filterData } from '../global/Data';
-import { Image } from 'react-native-animatable';
 
 const FoodCard = ({
     OnPressFoodCard,
@@ -69,6 +68,7 @@ const styles = StyleSheet.create({
         borderColor: colors.grey4,
         borderBottomLeftRadius: 5,
         borderBottomRightRadius: 5,
+        paddingBottom: 5
     },
     image: {
         borderTopLeftRadius: 5,

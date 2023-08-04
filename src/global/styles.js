@@ -1,7 +1,7 @@
 import { StyleSheet } from "react-native";
 
 export const colors = {
-    buttons: '#ff8c52',
+    buttons: '#FFB100',
     grey1: '#43484d',
     grey2: '#5e6977',
     grey3: '#86939e',
@@ -9,13 +9,13 @@ export const colors = {
     grey5: '#e1e8ee',
     CardComment: '#86939e',
     CardBackground: '#ffffff',
-    statusbar: '#ff8c52',
+    statusbar: '#FFB100',
     headerText: '#ffffff'
 }
 export const parameters = {
     headerHeight: 40,
     buttonStyle: {
-        backgroundColor: '#ff8c52',
+        backgroundColor: '#FFB100',
         alignContent: 'center',
         justifyContent: 'center',
         borderRadius: 12,
@@ -39,3 +39,8 @@ export const title = {
     color: colors.grey4,
     fontSize: 16
 }
+// Colors Theme
+// FFB100, 
+// FBC252, 
+// F0ECCF, 
+// A3BB98

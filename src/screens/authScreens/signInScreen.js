@@ -57,8 +57,8 @@ export default function SignInScreen({ navigation }) {
                         title={'SIGN IN'}
                         buttonStyle={parameters.buttonStyle}
                         titleStyle={parameters.buttonTitleStyle}
-                        onPress={()=> {
-                            navigation.navigate('HomeScreen')
+                        onPress={() => {
+                            navigation.navigate('RootClientTabs')
                         }}
                     />
                 </View>
@@ -145,12 +145,12 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         borderRadius: 12,
         borderWidth: 1,
-        borderColor: '#ff8c52',
+        borderColor: '#FFB100',
         height: 40,
         paddingHorizontal: 20
     },
     createButtonTitle: {
-        color: '#ff8c52',
+        color: '#FFB100',
         fontSize: 16,
         fontWeight: 'bold',
         alignItems: 'center',
