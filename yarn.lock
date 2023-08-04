@@ -5615,10 +5615,10 @@ react-native-ratings@^8.1.0:
   dependencies:
     lodash "^4.17.15"
 
-react-native-reanimated@^3.4.1, "react-native-reanimated@>= 1.0.0":
-  version "3.4.1"
-  resolved "https://registry.npmjs.org/react-native-reanimated/-/react-native-reanimated-3.4.1.tgz"
-  integrity sha512-UjEBbWloCoUB/fkehj9GWAhuvfUx2BLYkQ3rP7+nVMJ5K5Ck1K6XFEBGfYdz4ttCBoyTSuzrPxe2XxJl3yRSdA==
+react-native-reanimated@^3.4.2, "react-native-reanimated@>= 1.0.0":
+  version "3.4.2"
+  resolved "https://registry.npmjs.org/react-native-reanimated/-/react-native-reanimated-3.4.2.tgz"
+  integrity sha512-FbtG+f1PB005vDTJSv4zAnTK7nNXi+FjFgbAM5gOzIZDajfph2BFMSUstzIsN8T77+OKuugUBmcTqLnQ24EBVg==
   dependencies:
     "@babel/plugin-transform-object-assign" "^7.16.7"
     "@babel/preset-typescript" "^7.16.7"

@@ -4,7 +4,7 @@ import { colors, parameters } from "../global/styles";
 
 import { Icon, withBadge } from '@rneui/themed';
 
-export default function HomeHeader({ title, navigation }) {
+export default function HomeHeader({ navigation }) {
     const BadgedIcon = withBadge(1)(Icon);
     return (
         <View style={styles.header}>
@@ -14,7 +14,7 @@ export default function HomeHeader({ title, navigation }) {
                     name={'menu'}
                     color={colors.headerText}
                     size={32}
-                    onPress={() => { navigation.goBack() }}
+                    onPress={() => { navigation.toggleDrawer() }}
 
                 />
             </View>

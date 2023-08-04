@@ -32,6 +32,7 @@ const HomeScreen = ({ navigation }) => {
                         <TouchableOpacity
                             onPress={() => {
                                 setDelivery(false)
+                                navigation.navigate('RestaurantsMapScreen')
                             }}
                         >
                             <View style={{ ...styles.deliveryButton, backgroundColor: delivery ? colors.grey5 : colors.buttons }}>
@@ -175,6 +176,21 @@ const HomeScreen = ({ navigation }) => {
                     }
                 </View>
             </ScrollView>
+            {delivery &&
+                <View style={styles.floatingButton}>
+                    <TouchableOpacity
+                        onPress={() => navigation.navigate('RestaurantsMapScreen')}
+                    >
+                        <Icon
+                            name='place'
+                            type='material'
+                            size={32}
+                            color={colors.buttons}
+                        />
+                        <Text style={{ color: colors.grey2, textAlign: 'center' }}>Map</Text>
+                    </TouchableOpacity>
+                </View>
+            }
         </View>
     )
 }
@@ -259,5 +275,16 @@ const styles = StyleSheet.create({
     smallCardSelectedText: {
         color: colors.CardBackground,
         fontWeight: 'bold',
+    },
+    floatingButton: {
+        position: 'absolute',
+        bottom: 10,
+        right: 15,
+        backgroundColor: 'white',
+        elevation: 10,
+        width: 60,
+        height: 60,
+        borderRadius: 30,
+        alignItems: 'center'
     }
 })
