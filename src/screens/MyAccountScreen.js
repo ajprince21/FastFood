@@ -1,14 +1,13 @@
-import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const MyAccountScreen = () => {
-  return (
-    <View>
-      <Text>MyAccountScreen</Text>
-    </View>
-  )
+import {View, Text,StyleSheet} from 'react-native'
+
+
+export default function MyAccountScreen(){
+
+    return(
+        <View style ={{flex:1, alignItems:'center',justifyContent:'center'}}>
+            <Text>My Account</Text>
+        </View>
+    )
 }
-
-export default MyAccountScreen
-
-const styles = StyleSheet.create({})

@@ -1,40 +1,48 @@
-import React from "react";
-import { View, Text, StyleSheet, Dimensions } from 'react-native';
-import { colors, parameters } from "../global/styles";
+import React from 'react';
 
-import { Icon } from '@rneui/themed';
+import { View, Text, StyleSheet, Dimensions } from 'react-native'
+import { colors, parameters, } from "../global/styles"
+
+import { Icon } from 'react-native-elements'
 
 export default function Header({ title, type, navigation }) {
+
     return (
         <View style={styles.header}>
-            <View style={{ marginLeft: 10 }}>
+            <View style={{ marginLeft: 20 }}>
                 <Icon
-                    type="MaterialIcons"
+                    type="material-community"
                     name={type}
-                    color={colors.headerText} size={28}
-                    onPress={() => { navigation.goBack() }}
+                    color={colors.heaherText}
+                    size={28}
 
+                    onPress={() => { navigation.goBack() }}
                 />
+
             </View>
             <View>
                 <Text style={styles.headerText}>{title}</Text>
             </View>
+
+
+
         </View>
     )
 }
 
+
 const styles = StyleSheet.create({
     header: {
-        flexDirection: 'row',
-        height: parameters.headerHeight,
+        flexDirection: "row",
         backgroundColor: colors.buttons,
-        alignItems: 'center'
+        height: parameters.headerHeight
     },
+
     headerText: {
-        color: colors.headerText,
+        color: colors.heaherText,
         fontSize: 22,
-        fontWeight: 'bold',
+        fontWeight: "bold",
         marginLeft: 30
-    }
-    
+    },
+
 })

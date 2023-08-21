@@ -1,15 +1,13 @@
-import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-export default function RestaurantsMapScreen()  {
-  return (
-    <View>
-      <Text>Restaurants Map Screen</Text>
-    </View>
-  )
+import { View, Text, StyleSheet } from 'react-native'
+
+
+export default function RestaurantMapScreen() {
+
+    return (
+        <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+            <Text>Restaurant Map Screen</Text>
+        </View>
+    )
 }
-
-
-const styles = StyleSheet.create({
-
-})

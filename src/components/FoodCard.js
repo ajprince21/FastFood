@@ -1,10 +1,15 @@
-import { StyleSheet, Text, TouchableOpacity, View, Image } from 'react-native'
-import React from 'react'
-import { colors, parameters } from '../global/styles';
-import { Icon } from '@rneui/themed';
-import { filterData } from '../global/Data';
+import React from 'react';
+import { Text, View, TouchableOpacity, Image, StyleSheet, Dimensions } from 'react-native';
 
-const FoodCard = ({
+
+import {
+    Icon
+} from 'react-native-elements';
+
+import { colors, parameters } from '../global/styles';
+
+
+export default function FoodCard({
     OnPressFoodCard,
     restaurantName,
     deliveryAvailable,
@@ -16,48 +21,56 @@ const FoodCard = ({
     averageReview,
     images,
     screenWidth
-}) => {
+}) {
+
     return (
         <TouchableOpacity>
             <View style={{ ...styles.cardView, width: screenWidth }}>
                 <Image
                     style={{ ...styles.image, width: screenWidth }}
-                    source={images}
+                    source={{ uri: images }}
                 />
+
                 <View>
                     <View>
                         <Text style={styles.restaurantName}>{restaurantName}</Text>
                     </View>
-                    <View style={{ flex: 1, flexDirection: 'row', }}>
+
+                    <View style={{ flex: 1, flexDirection: "row" }}>
+
                         <View style={styles.distance}>
                             <Icon
                                 name='place'
                                 type='material'
+                                color={colors.grey2}
                                 size={18}
                                 iconStyle={{
                                     marginTop: 3
                                 }}
                             />
-                            <Text style={styles.Min}>Min</Text>
+                            <Text style={styles.Min}> {farAway} Min</Text>
                         </View>
-                        <View style={{ flex: 9, flexDirection: 'row' }}>
+
+                        <View style={{ flex: 9, flexDirection: "row" }}>
                             <Text style={styles.address}>{businessAddress}</Text>
                         </View>
 
                     </View>
                 </View>
+
             </View>
+
+
+
 
             <View style={styles.review}>
                 <Text style={styles.average}>{averageReview}</Text>
-                <Text style={styles.numberOfReview}>{numberOfReview} review</Text>
-
+                <Text style={styles.numberOfReview}>{numberOfReview} reviews</Text>
             </View>
         </TouchableOpacity>
     )
-}
 
-export default FoodCard
+}
 
 const styles = StyleSheet.create({
     cardView: {
@@ -68,7 +81,6 @@ const styles = StyleSheet.create({
         borderColor: colors.grey4,
         borderBottomLeftRadius: 5,
         borderBottomRightRadius: 5,
-        paddingBottom: 5
     },
     image: {
         borderTopLeftRadius: 5,
@@ -85,8 +97,7 @@ const styles = StyleSheet.create({
     },
 
     distance: {
-        flex: 4,
-        flexDirection: 'row',
+        flex: 4, flexDirection: 'row',
         borderRightColor: colors.grey4,
         paddingHorizontal: 5,
         borderRightWidth: 1
@@ -110,8 +121,7 @@ const styles = StyleSheet.create({
         top: 0,
         right: 10,
         backgroundColor: 'rgba(52, 52, 52,0.3)',
-        padding: 2,
-        alignItems: "center",
+        padding: 2, alignItems: "center",
         justifyContent: "center",
         borderTopRightRadius: 5,
         borderBottomLeftRadius: 12
@@ -129,5 +139,4 @@ const styles = StyleSheet.create({
         marginRight: 0,
         marginLeft: 0
     }
-
 })

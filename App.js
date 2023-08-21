@@ -3,7 +3,8 @@ import { View, StyleSheet, StatusBar } from 'react-native'
 
 
 import { colors } from "./src/global/styles";
-import RootNavigator from './src/navigation/RootNavigator';
+import RootNavigator from "./src/navigation/rootNavigation";
+
 
 
 export default function App() {
