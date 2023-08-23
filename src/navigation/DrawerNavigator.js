@@ -26,6 +26,7 @@ export default function DrawerNavigator() {
 
                 options={{
                     title: 'Client',
+                    headerShown:false,
                     drawerIcon: ({ focussed, size }) => (
                         <Icon
                             type="material-community"

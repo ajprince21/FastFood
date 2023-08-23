@@ -49,7 +49,7 @@ const SignUpScreen = ({ navigation }) => {
           {(props) => (
             <View style={styles.view2}>
               <View>
-                <Text style={styles.text2}>New on XpressFood ?</Text>
+                <Text style={styles.text2}>New on FastFood ?</Text>
               </View>
               <View style={styles.view6}>
                 <TextInput
@@ -144,7 +144,7 @@ const SignUpScreen = ({ navigation }) => {
         </View>
         <View style={styles.view19}>
           <View style={styles.view20}>
-            <Text style={styles.text6}>Already have an account with XpressFood ?</Text>
+            <Text style={styles.text6}>Already have an account with FastFood ?</Text>
           </View>
           <View style={styles.view21}>
             <Button
@@ -213,7 +213,7 @@ const styles = StyleSheet.create({
     marginTop: 20
   },
 
-  input1: { fontSize: 16, },
+  input1: { fontSize: 16, width:'95%' },
 
   view6: {
     flexDirection: 'row',
@@ -233,7 +233,8 @@ const styles = StyleSheet.create({
   input2: {
     fontSize: 16,
     marginLeft: 0,
-    marginBottom: 0
+    marginBottom: 0,
+   
   },
 
   view8: {
@@ -283,7 +284,7 @@ const styles = StyleSheet.create({
   input4: {
     fontSize: 16,
     marginLeft: -20,
-    marginBottom: -10
+    marginBottom: -10,
   },
 
   view13: {

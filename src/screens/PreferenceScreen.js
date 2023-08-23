@@ -31,7 +31,7 @@ export default class PreferenceScreen extends Component {
                     <View style ={styles.header}>
                         <Image
                             style ={styles.backgroundImage}
-                            source ={{uri:"https://bukasapics.s3.us-east-2.amazonaws.com/macdo.png"}}
+                            source ={{uri:"https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Froman.jpg?alt=media&token=9ac9e762-6253-4261-9078-efd70546a53c"}}
                         />
                      </View>
                      <View style ={styles.bar}>
@@ -143,7 +143,7 @@ export default class PreferenceScreen extends Component {
 }
 
 const styles = StyleSheet.create({
-    container:{flex:1
+    container:{flex:1,
     },
     fill: {
         flex: 1,

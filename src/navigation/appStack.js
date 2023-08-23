@@ -22,7 +22,8 @@ export function AppStack() {
                 name="RestaurantMapScreen"
                 component={RestaurantMapScreen}
                 options={{
-                    headerShown: false,
+                    title:'Map',
+                    headerShown: true,
                     ...TransitionPresets.RevealFromBottomAndroid
                 }}
             />

@@ -10,16 +10,16 @@ export const filterData = [{ name: "Fast food", image: require('../assets/fastfo
 
 
 
-export const filterData2 = [{ name: "Fast food", image: 'https://bukasapics.s3.us-east-2.amazonaws.com/chicken.png', id: "0" },
-{ name: "Burgers", image: 'https://bukasapics.s3.us-east-2.amazonaws.com/macdo.png', id: "1" },
-{ name: "Salads", image: "https://bukasapics.s3.us-east-2.amazonaws.com/nandos.png", id: "2" },
-{ name: "Hotdog", image: "https://bukasapics.s3.us-east-2.amazonaws.com/pizza.png", id: "3" },
-{ name: "Chinese", image: "https://bukasapics.s3.us-east-2.amazonaws.com/pizza6.png", id: "4" },
-{ name: "Mexican", image: "https://bukasapics.s3.us-east-2.amazonaws.com/plate1.png", id: "5" },
-{ name: "Sea food", image: "https://bukasapics.s3.us-east-2.amazonaws.com/plate2.png", id: "6" },
-{ name: "Chinese Food", image: "https://bukasapics.s3.us-east-2.amazonaws.com/plate3.png", id: "7" },
-{ name: "Mexican pie", image: "https://bukasapics.s3.us-east-2.amazonaws.com/plate4.png", id: "8" },
-{ name: "Ocean dish", image: "https://bukasapics.s3.us-east-2.amazonaws.com/plate5.png", id: "9" },
+export const filterData2 = [{ name: "Fast food", image: 'https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Ffastfood.png?alt=media&token=60eb9e03-3e53-46b7-aead-346b07e44624https://bukasapics.s3.us-east-2.amazonaws.com/chicken.png', id: "0" },
+{ name: "Burgers", image: 'https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Fburger.png?alt=media&token=258de434-dac3-4906-8173-1fd266104ae2', id: "1" },
+{ name: "Salads", image: "https://bukasapics.s3.us-east-2.https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Fsalads.png?alt=media&token=0321cee0-8480-4ff4-9a4f-5c0b36f7fdf5.com/nandos.png", id: "2" },
+{ name: "Hotdog", image: "https://bukasapics.s3.us-https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Fhotdog.png?alt=media&token=2a755474-d605-40a9-b803-773c16287148-2.amazonaws.com/pizza.png", id: "3" },
+{ name: "Chinese", image: "https://bukasapics.https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Fchinese.png?alt=media&token=2204a7b1-a222-47ff-a55a-f768e70d45ed.us-east-2.amazonaws.com/pizza6.png", id: "4" },
+{ name: "Mexican", image: "https://bukasapics.s3.us-east-https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Fmexican.png?alt=media&token=d25aa9c3-aa8c-4612-986c-70a8af6dc358.amazonaws.com/plate1.png", id: "5" },
+{ name: "Sea food", image: "https://https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Fseafood.png?alt=media&token=97163b77-8cab-4732-aaa8-0ad2570d040a.s3.us-east-2.amazonaws.com/plate2.png", id: "6" },
+{ name: "Chinese Food", image: "https://bukasapics.s3.us-https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Fchinese.png?alt=media&token=2204a7b1-a222-47ff-a55a-f768e70d45ed-2.amazonaws.com/plate3.png", id: "7" },
+{ name: "Mexican pie", image: "https://bukasapics.s3.us-east-https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Fmexican.png?alt=media&token=d25aa9c3-aa8c-4612-986c-70a8af6dc358.amazonaws.com/plate1.png", id: "8" },
+{ name: "Ocean dish", image: "https://https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Fseafood.png?alt=media&token=97163b77-8cab-4732-aaa8-0ad2570d040a.s3.us-east-2.amazonaws.com/plate2.png", id: "9" },
 ];
 
 
@@ -29,13 +29,13 @@ export const filterData2 = [{ name: "Fast food", image: 'https://bukasapics.s3.u
 export const restaurantsData = [
   {
     restaurantName: "Mc Donalds", farAway: "21.2",
-    businessAddress: "22 Bessie street, Cape Town", images: 'https://bukasapics.s3.us-east-2.amazonaws.com/chicken.png',
+    businessAddress: "22 Bessie street, Cape Town", images: 'https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Fmcdonald.jpg?alt=media&token=dcad2824-f7df-4366-b6a1-ce5f1ebc10c7',
     averageReview: 4.9, numberOfReview: 272, coordinates: { lat: -26.1888612, lng: 28.246325 }, discount: 10, deliveryTime: 15,
     collectTime: 5, foodType: "Burgers, Wraps,Milkshakes...",
-    productData: [{ name: "Hand cut chips", price: 29.30, image: "https://bukasapics.s3.us-east-2.amazonaws.com/plate5.png" },
+    productData: [{ name: "Hand cut chips", price: 29.30, image: "https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Fclassic-hand-cut-chips.jpg?alt=media&token=79ae6cd9-7a5b-4592-8aea-0a6b1be8629a" },
     { name: "Big Mac", price: 50.80, image: "https://bukasapics.s3.us-east-2.amazonaws.com/plate4.png" }, {
       name: "Chicken Burger",
-      price: 70, image: "https://bukasapics.s3.us-east-2.amazonaws.com/plate3.png"
+      price: 70, image: "https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Famirali-mirhashemian-pjGnlZTtQ-Y-unsplash.jpg?alt=media&token=619d3487-5036-4cd0-bf62-0a53f43db870"
     },
     ],
     id: 0
@@ -43,25 +43,25 @@ export const restaurantsData = [
 
   {
     restaurantName: "KFC", farAway: "12.7", businessAddress: "22 Bessie street, Cape Town",
-    images: 'https://bukasapics.s3.us-east-2.amazonaws.com/macdo.png',
+    images: 'https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Fkfc.jpg?alt=media&token=22f7af47-d955-480d-afc6-16eef83b7604',
     averageReview: 4.3, numberOfReview: 306, coordinates: { lat: -26.1891648, lng: 28.2441808 },
     discount: 20, deliveryTime: 30, collectTime: 10, foodType: "Chicken,Chicken wings... ",
-    productData: [{ name: "Hand cut chips", price: 29.30, image: "https://bukasapics.s3.us-east-2.amazonaws.com/plate5.png" },
-    { name: "Big Mac", price: 50.80, image: "https://bukasapics.s3.us-east-2.amazonaws.com/plate4.png" },
-    { name: "Chicken Burger", price: 70, image: "https://bukasapics.s3.us-east-2.amazonaws.com/plate3.png" },
+    productData: [{ name: "Hand cut chips", price: 29.30, image: "https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Fclassic-hand-cut-chips.jpg?alt=media&token=79ae6cd9-7a5b-4592-8aea-0a6b1be8629a" },
+    { name: "Big Mac", price: 50.80, image: "https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Feiliv-aceron-DspT8Smoc0k-unsplash.jpg?alt=media&token=35df2a75-4a3e-416e-9f75-eef084aebcc9" },
+    { name: "Chicken Burger", price: 70, image: "https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Famirali-mirhashemian-pjGnlZTtQ-Y-unsplash.jpg?alt=media&token=619d3487-5036-4cd0-bf62-0a53f43db870" },
     ],
     id: 1
   },
 
   {
     restaurantName: "Steers", farAway: "5", businessAddress: " 17 Olivia Rd, Johannesburg",
-    images: 'https://bukasapics.s3.us-east-2.amazonaws.com/plate5.png',
+    images: 'https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Fsteers.jpg?alt=media&token=a9fc17eb-64dd-4ec1-8cb3-b5e5d91e09c9',
     coordinates: { lat: -26.1886781, lng: 28.244879 }, averageReview: 4.9, numberOfReview: 1272,
     discount: 12, deliveryTime: 25, collectTime: 15, foodType: "Flame grilled beef Burgers",
-    productData: [{ name: "Hand cut chips", price: 29.30, image: "https://bukasapics.s3.us-east-2.amazonaws.com/plate5.png" },
-    { name: "Big Mac", price: 50.80, image: "https://bukasapics.s3.us-east-2.amazonaws.com/plate4.png" }, {
+    productData: [{ name: "Hand cut chips", price: 29.30, image: "https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Fclassic-hand-cut-chips.jpg?alt=media&token=79ae6cd9-7a5b-4592-8aea-0a6b1be8629a" },
+    { name: "Big Mac", price: 50.80, image: "https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Feiliv-aceron-DspT8Smoc0k-unsplash.jpg?alt=media&token=35df2a75-4a3e-416e-9f75-eef084aebcc9" }, {
       name: "Chicken Burger",
-      price: 70, image: "https://bukasapics.s3.us-east-2.amazonaws.com/plate3.png"
+      price: 70, image: "https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Famirali-mirhashemian-pjGnlZTtQ-Y-unsplash.jpg?alt=media&token=619d3487-5036-4cd0-bf62-0a53f43db870"
     },
     ],
     id: 2
@@ -69,13 +69,13 @@ export const restaurantsData = [
 
   {
     restaurantName: "Roman Pizza", farAway: "7", businessAddress: " 15 Atlas Rd, Kempton Park",
-    images: 'https://bukasapics.s3.us-east-2.amazonaws.com/pizza6.png',
+    images: 'https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Froman.jpg?alt=media&token=9ac9e762-6253-4261-9078-efd70546a53c',
     averageReview: 4.3, numberOfReview: 700, coordinates: { lat: -26.1845336, lng: 28.2481691 },
     discount: null, deliveryTime: 20, collectTime: 10, foodType: "Chicken pizza, Vegetarian pizza...",
-    productData: [{ name: "Hand cut chips", price: 29.30, image: "https://bukasapics.s3.us-east-2.amazonaws.com/plate5.png" },
-    { name: "Big Mac", price: 50.80, image: "https://bukasapics.s3.us-east-2.amazonaws.com/plate4.png" }, {
+    productData: [{ name: "Hand cut chips", price: 29.30, image: "https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Fclassic-hand-cut-chips.jpg?alt=media&token=79ae6cd9-7a5b-4592-8aea-0a6b1be8629a" },
+    { name: "Big Mac", price: 50.80, image: "https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Feiliv-aceron-DspT8Smoc0k-unsplash.jpg?alt=media&token=35df2a75-4a3e-416e-9f75-eef084aebcc9" }, {
       name: "Chicken Burger",
-      price: 70, image: "https://bukasapics.s3.us-east-2.amazonaws.com/plate3.png"
+      price: 70, image: "https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Famirali-mirhashemian-pjGnlZTtQ-Y-unsplash.jpg?alt=media&token=619d3487-5036-4cd0-bf62-0a53f43db870"
     },
     ],
     id: 3
@@ -85,24 +85,24 @@ export const restaurantsData = [
 
 
 export const productData = [{
-  name: "Hand cut chips", price: 29.30, image: "https://bukasapics.s3.us-east-2.amazonaws.com/plate5.png",
+  name: "Hand cut chips", price: 29.30, image: "https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Fclassic-hand-cut-chips.jpg?alt=media&token=79ae6cd9-7a5b-4592-8aea-0a6b1be8629a",
   details: "Two 100% fresh beef burger patties that are hot,deliciously", id: 0
 },
 {
-  name: "Big Mac", price: 50.80, image: "https://bukasapics.s3.us-east-2.amazonaws.com/plate4.png",
+  name: "Big Mac", price: 50.80, image: "https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Feiliv-aceron-DspT8Smoc0k-unsplash.jpg?alt=media&token=35df2a75-4a3e-416e-9f75-eef084aebcc9",
   details: "McFeast features two 100% fresh beef burger patties that are hot", id: 1
 },
-{ name: "Chicken Burger", price: 70, image: "https://bukasapics.s3.us-east-2.amazonaws.com/plate3.png", details: "", id: 2 },
+{ name: "Chicken Burger", price: 70, image: "https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Famirali-mirhashemian-pjGnlZTtQ-Y-unsplash.jpg?alt=media&token=619d3487-5036-4cd0-bf62-0a53f43db870", details: "", id: 2 },
 
 {
-  name: "Hand cut chips", price: 29.30, image: "https://bukasapics.s3.us-east-2.amazonaws.com/plate4.png",
+  name: "Hand cut chips", price: 29.30, image: "https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Fclassic-hand-cut-chips.jpg?alt=media&token=79ae6cd9-7a5b-4592-8aea-0a6b1be8629a",
   details: "Two 100% fresh beef burger patties that are hot,deliciously", id: 3
 },
 {
-  name: "Big Mac", price: 70.20, image: "https://bukasapics.s3.us-east-2.amazonaws.com/plate1.png",
+  name: "Big Mac", price: 70.20, image: "https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Feiliv-aceron-DspT8Smoc0k-unsplash.jpg?alt=media&token=35df2a75-4a3e-416e-9f75-eef084aebcc9",
   details: "McFeast features two 100% fresh beef burger patties that are hot", id: 4
 },
-{ name: "Chicken Burger", price: 70, image: "https://bukasapics.s3.us-east-2.amazonaws.com/chicken.png", details: "", id: 5 },
+{ name: "Chicken Burger", price: 70, image: "https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Famirali-mirhashemian-pjGnlZTtQ-Y-unsplash.jpg?alt=media&token=619d3487-5036-4cd0-bf62-0a53f43db870", details: "", id: 5 },
 
 ];
 
@@ -146,7 +146,7 @@ export const menuDetailedData = [
   {
     meal: "Big Mac",
     price: 70.20,
-    image: "https://bukasapics.s3.us-east-2.amazonaws.com/plate1.png",
+    image: "https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Feiliv-aceron-DspT8Smoc0k-unsplash.jpg?alt=media&token=35df2a75-4a3e-416e-9f75-eef084aebcc9",
     details: "McFeast features two 100% fresh beef burger patties that are hot",
     preferenceTitle: ["Choose your 2 dips", "Choose your 1st drink flavour", "Choose your 2nd drink flavour", "Would you like to add a side?", "Would you Like any extra sauce?"],
     preferenceData: [
@@ -182,7 +182,7 @@ export const menuDetailedData = [
   {
     meal: "Hand cut chips",
     price: 29.30,
-    image: "https://bukasapics.s3.us-east-2.amazonaws.com/plate4.png",
+    image: "https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Fclassic-hand-cut-chips.jpg?alt=media&token=79ae6cd9-7a5b-4592-8aea-0a6b1be8629a",
     details: "Two 100% fresh beef burger patties that are hot,deliciously",
     preferenceTitle: ["Choose your 2 dips", "Choose your 1st drink flavour", "Choose your 2nd drink flavour", "Would you like to add a side?", "Would you Like any extra sauce?"],
     preferenceData: [
@@ -218,7 +218,7 @@ export const menuDetailedData = [
   {
     meal: "Chicken Burger",
     price: 45.70,
-    image: "https://bukasapics.s3.us-east-2.amazonaws.com/plate3.png",
+    image: "https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Famirali-mirhashemian-pjGnlZTtQ-Y-unsplash.jpg?alt=media&token=619d3487-5036-4cd0-bf62-0a53f43db870",
     details: "",
     preferenceTitle: ["Choose your 2 dips", "Choose your 1st drink flavour", "Choose your 2nd drink flavour", "Would you like to add a side?", "Would you Like any extra sauce?"],
     preferenceData: [
@@ -255,7 +255,7 @@ export const menuDetailedData = [
   {
     meal: "Big Mac",
     price: 50.80,
-    image: "https://bukasapics.s3.us-east-2.amazonaws.com/plate4.png",
+    image: "https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Feiliv-aceron-DspT8Smoc0k-unsplash.jpg?alt=media&token=35df2a75-4a3e-416e-9f75-eef084aebcc9",
     details: "McFeast features two 100% fresh beef burger patties that are hot",
     preferenceTitle: ["Choose your 2 dips", "Choose your 1st drink flavour", "Choose your 2nd drink flavour", "Would you like to add a side?", "Would you Like any extra sauce?"],
     preferenceData: [
@@ -294,7 +294,7 @@ export const menuDetailedData = [
 
     meal: "Hand cut chips",
     price: 29.30,
-    image: "https://bukasapics.s3.us-east-2.amazonaws.com/plate5.png",
+    image: "https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Fclassic-hand-cut-chips.jpg?alt=media&token=79ae6cd9-7a5b-4592-8aea-0a6b1be8629a",
     details: "Two 100% fresh beef burger patties that are hot,deliciously",
 
     preferenceTitle: ["Choose your 2 dips", "Choose your 1st drink flavour", "Choose your 2nd drink flavour", "Would you like to add a side?", "Would you Like any extra sauce?"],
@@ -333,7 +333,7 @@ export const menuDetailedData = [
   {
     meal: "Big Mac",
     price: 70.20,
-    image: "https://bukasapics.s3.us-east-2.amazonaws.com/plate1.png",
+    image: "https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Feiliv-aceron-DspT8Smoc0k-unsplash.jpg?alt=media&token=35df2a75-4a3e-416e-9f75-eef084aebcc9",
     details: "McFeast features two 100% fresh beef burger patties that are hot",
     preferenceTitle: ["Choose your 2 dips", "Choose your 1st drink flavour", "Choose your 2nd drink flavour", "Would you like to add a side?", "Would you Like any extra sauce?"],
     preferenceData: [

@@ -160,7 +160,7 @@ export default function SignInScreen({ navigation }) {
             </View>
 
             <View style={{ marginTop: 25, marginLeft: 20 }}>
-                <Text style={{ ...styles.text1, }}>New on XpressFood ?</Text>
+                <Text style={{ ...styles.text1, }}>New on FastFood ?</Text>
             </View>
 
 
@@ -220,13 +220,13 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         borderRadius: 12,
         borderWidth: 1,
-        borderColor: "#ff8c52",
+        borderColor: "#face55",
         height: 40,
         paddingHorizontal: 20,
     },
 
     createButtonTitle: {
-        color: "#ff8c52",
+        color: "#face55",
         fontSize: 16,
         fontWeight: "bold",
         alignItems: "center",

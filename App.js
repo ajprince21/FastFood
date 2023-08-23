@@ -4,11 +4,13 @@ import { View, StyleSheet, StatusBar } from 'react-native'
 
 import { colors } from "./src/global/styles";
 import RootNavigator from "./src/navigation/rootNavigation";
+import { SignInContextProvider } from "./src/contexts/authContext";
 
 
 
 export default function App() {
   return (
+    <SignInContextProvider>
     <View style={styles.conatiner}>
       <StatusBar
         barStyle="light-content"
@@ -16,6 +18,7 @@ export default function App() {
       />
       <RootNavigator />
     </View>
+    </SignInContextProvider>
   )
 }
 

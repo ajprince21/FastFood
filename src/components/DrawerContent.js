@@ -46,7 +46,7 @@ export default function DrawerContent(props) {
                         dispatchSignedIn({ type: "UPDATE_SIGN_IN", payload: { userToken: null } })
                     })
 
-        } catch (errot) {
+        } catch (error) {
             Alert.alert(error.code)
         }
     }
@@ -65,12 +65,12 @@ export default function DrawerContent(props) {
                             rounded
                             avatarStyle={styles.avatar}
                             size={75}
-                            source={{ uri: "https://bukasapics.s3.us-east-2.amazonaws.com/plate5.png" }}
+                            source={{ uri: "https://bukasapics.s3.https://firebasestorage.googleapis.com/v0/b/fastfood-27879.appspot.com/o/restaurants%2Frestaurants%2Fburger.png?alt=media&token=258de434-dac3-4906-8173-1fd266104ae2-east-2.amazonaws.com/plate5.png" }}
                         />
 
                         <View style={{ marginLeft: 10 }}>
                             <Text style={{ fontWeight: 'bold', color: colors.cardbackground, fontSize: 18 }} >John Mark</Text>
-                            <Text style={{ color: colors.cardbackground, fontSize: 14 }} > john@xpressfood.com</Text>
+                            <Text style={{ color: colors.cardbackground, fontSize: 14 }} > john@FastFood.com</Text>
                         </View>
 
                     </View>
